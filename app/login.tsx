@@ -147,6 +147,14 @@ export default function LoginScreen() {
             borderRadius={30}
             txt="Go to Home Page"
           />
+          <ThemedButton
+            onPress={() => router.push("/components/ProductList")}
+            // bgColor="linear-gradient(to right, #8e44ad, #3498db)"
+            txtColor="#fff"
+            my={20}
+            borderRadius={30}
+            txt="Go to Product Page"
+          />
         </SafeAreaView>
       </SafeAreaProvider>
     </View>

@@ -39,8 +39,8 @@ export default function LoginScreen() {
                 </SafeAreaView>
             </SafeAreaProvider>
             <TouchableOpacity
-      onPress={() => router.push("./HomeScreen")}
-      style={{
+                onPress={() => router.push("./HomeScreen")}
+                style={{
                     backgroundColor: "#c1e1c5",
                     padding: 10,
                     borderRadius: 5,
